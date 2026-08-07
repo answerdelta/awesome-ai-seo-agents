@@ -1,0 +1,8 @@
+agent,vendor_category,code_access,access_type,evidence,evidence_type,checked,notes
+Search Atlas,agentic suite,yes,"MCP servers + CLI",github.com/search-atlas-group,public repos,2026-08-07,"3 MCP repos (MCP-agent 10 stars Feb 2026; searchatlas-mcp-server Apr 2026; searchatlas-mcp-servers Mar 2026) plus a Homebrew tap for a SearchAtlas CLI. OTTO deploys on-page changes client-side - verify what reaches the crawler before trusting it."
+DataForSEO,data API,yes,"official MCP server",github.com/dataforseo/mcp-server-typescript,public repo,2026-08-07,"214 stars, Apache-2.0, TypeScript, runs local or as a Cloudflare Worker. A data layer you build an agent on, not an agent that acts."
+Nightwatch,rank tracking,yes,"hosted MCP",mcp.nightwatch.io/sse,vendor doc,2026-08-07,"Official hosted server. Requires Professional plan or above - explicitly excluded from Starter and from the free trial."
+Frase,content agent,yes,"agent endpoint",frase.io/agents,vendor page,2026-08-07,"Marketed as running Frase from your own agents. No public repo found at check date."
+Surfer,content optimisation,partial,"REST API only",surferseo.com/updates/new-surfer-api-june2026,vendor changelog,2026-08-07,"Public API shipped June 2026. No MCP server found at check date - you write the glue yourself."
+Ahrefs,backlink data,deprecated,"MCP repo archived",github.com/ahrefs/ahrefs-mcp-server,public repo,2026-08-07,"99 stars. Repo ARCHIVED 2026-02-24; maintainers redirect to a remote MCP server. Requires a paid API key either way."
+Semrush,all-in-one suite,no,"none found",github.com/orgs/semrush/repositories,public org listing,2026-08-07,"11 public repos at check date, none an MCP server. Third-party MCP wrappers exist but are not vendor-maintained."
