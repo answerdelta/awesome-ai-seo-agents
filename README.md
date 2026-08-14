@@ -3,11 +3,11 @@
 Every roundup of AI SEO agents scores features. None of them check the one thing a developer
 needs before committing: **can you actually drive it from code, or is it a dashboard with an AI
 label on it.** This list answers that per vendor, against the vendor's own repo or documentation,
-with the date it was checked. Snapshot: **2026-08-07**.
+with the date it was checked. Snapshot: **2026-08-14**.
 
 ## Short answer
 
-Four of the seven agents here can be driven from code today, and the gap between marketing and
+Five of the eight agents here can be driven from code today, and the gap between marketing and
 reality is wider than the category admits. **Ahrefs archived its official MCP server on
 2026-02-24** and redirects to a remote one. **Semrush has no MCP server at all** in its GitHub
 org — eleven public repos, none of them one. Meanwhile
@@ -46,6 +46,11 @@ Mar 2026) plus a Homebrew tap for a SearchAtlas CLI. It is also the only entry w
 *writes to your site* rather than reporting on it — which is the point, and the risk. The
 [7-day trial](https://ofm-tools.com/git/searchatlas) is the cheapest way to point an MCP client
 at a real account and see what the agent actually does.
+
+**NotFair** — [45 MIT-licensed agent skills](https://github.com/nowork-studio/notfair-plugin)
+covering SEO, GEO, paid media, and analytics. Its universal hosted MCP exposes Search Console,
+GA4, Google Ads, Meta Ads, X Ads, and LinkedIn Ads after each source is connected; ad-platform
+writes use explicit, bounded mutation tools rather than an unrestricted account surface.
 
 **DataForSEO** — `dataforseo/mcp-server-typescript`, 214★, Apache-2.0, runs locally or as a
 Cloudflare Worker. The most honest entry in the category, because it does not pretend to be an
@@ -128,4 +133,4 @@ the checking behind this list.
 
 MIT licensed. Not affiliated with any vendor listed.
 
-*Last updated: 2026-08-07.*
+*Last updated: 2026-08-14.*
