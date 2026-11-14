@@ -58,6 +58,11 @@ and is explicitly excluded from the Starter plan and the free trial.
 **Frase** — publishes an agent endpoint at `frase.io/agents`. No public repository found at check
 date, so the integration surface is whatever the vendor documents.
 
+**zaDojo**: `zaDojo/seo-geo-mcp`, MIT, a Claude Code / Codex / Cursor plugin with 12 SEO
+skills that points at a hosted MCP at `app.zadojo.com/mcp` (OAuth 2.1 or API key), listed in the
+official MCP Registry as `com.zadojo/seo-geo-mcp`. Search Console and Analytics tools are free;
+SERP, keyword and AI visibility research is pay-as-you-go.
+
 ### Partial
 
 **Surfer** — shipped a public REST API in June 2026. No MCP server found at check date, so you
